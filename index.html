@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="dark" name="color-scheme"/><meta content="#080E18" name="theme-color"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>PdfFlix3D Reader &amp; Writer · Privacidade, Aviso Legal e Termos</title>
+<link href="logo.png" rel="icon" type="image/png"/>
+<meta content="Política de Privacidade, Segurança, Aviso Legal e Termos de Uso do PdfFlix3D Reader &amp; Writer, da Shopflix3D Solutions Ltda." name="description"/>
+<style>
+  :root{
+    --bg:#080E18; --surface:#0A1628; --card:#132846; --line:#1C3050;
+    --blue:#1565C0; --blue-l:#42A5F5; --cyan:#00BCD4; --gold:#FFB74D;
+    --text:#ECF3FB; --text2:#9FB3CC; --muted:#98ADC4;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+  a{color:var(--blue-l);overflow-wrap:anywhere}
+  .skip-link{position:absolute;left:-10000px;top:0;background:var(--card);color:var(--text);padding:8px;z-index:9}
+  .skip-link:focus{left:8px}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
+  header{background:linear-gradient(135deg,#10203A,#0A1628 60%,#080E18);border-bottom:1px solid var(--line)}
+  .wrap{max-width:860px;margin:0 auto;padding:0 20px}
+  .top{display:flex;align-items:center;gap:16px;padding:28px 0 18px}
+  .logo{width:56px;height:56px;border-radius:14px;display:block}
+  .top h1{margin:0;font-size:1.45rem;line-height:1.2}
+  .top h1 .ed{display:block;font-size:.72rem;font-weight:800;letter-spacing:.14em;color:var(--cyan);margin-top:2px}
+  .top p{margin:2px 0 0;color:var(--text2);font-size:.95rem}
+  .lang{margin-left:auto;display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+  .lang button{font:inherit;background:none;border:0;color:var(--text2);padding:8px 14px;font-weight:700;cursor:pointer}
+  .lang button.on{background:var(--blue);color:#fff}
+  nav{display:flex;flex-wrap:wrap;gap:8px;padding:0 0 20px}
+  nav a{text-decoration:none;color:var(--text);background:var(--card);border:1px solid var(--line);padding:7px 14px;border-radius:999px;font-size:.92rem}
+  main{padding:28px 0 60px}
+  section{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin-bottom:22px;scroll-margin-top:18px}
+  h2{margin:0 0 6px;font-size:1.3rem;color:var(--cyan)}
+  h3{margin:20px 0 6px;font-size:1.05rem}
+  .date{color:var(--muted);font-size:.88rem;margin:0 0 10px}
+  ul{padding-left:20px}
+  li{margin:4px 0}
+  .pill{display:inline-block;font-size:.78rem;font-weight:800;letter-spacing:.06em;padding:2px 10px;border-radius:999px;margin-right:6px}
+  .free{background:rgba(77,182,172,.15);color:#4DB6AC;border:1px solid rgba(77,182,172,.5)}
+  .pro{background:rgba(255,183,77,.12);color:var(--gold);border:1px solid rgba(255,183,77,.55)}
+  .box{background:var(--card);border-radius:12px;padding:12px 16px;margin:12px 0}
+  footer{color:var(--muted);text-align:center;font-size:.88rem;padding:0 20px 40px}
+  [lang-block]{display:none}
+  body.pt [lang-block="pt"], body.en [lang-block="en"]{display:block}
+  body.pt nav [lang-block="pt"], body.en nav [lang-block="en"]{display:inline}
+  @media (max-width:560px){ .top{flex-wrap:wrap} .lang{margin-left:0} section{padding:18px}.lang{margin-left:0}.top h1{font-size:1.25rem} }
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body class="pt"><a class="skip-link" data-target="privacy" href="#privacy">Ir para a Política de Privacidade / Skip to Privacy Policy</a>
+<header>
+<div class="wrap">
+<div class="top">
+<img alt="PdfFlix3D" class="logo" decoding="async" height="56" src="logo.png" width="56"/>
+<div>
+<h1>PdfFlix3D <span class="ed">Reader &amp; Writer</span></h1>
+<p>Shopflix3D Solutions Ltda</p>
+</div>
+<div aria-label="Idioma / Language" class="lang" role="group">
+<button aria-pressed="true" class="on" id="b-pt" lang="pt-BR" onclick="setLang('pt')" type="button">PT</button>
+<button aria-pressed="false" id="b-en" lang="en" onclick="setLang('en')" type="button">EN</button>
+</div>
+</div>
+<nav aria-label="Seções legais / Legal sections">
+<a data-target="privacy" href="#privacy"><span lang-block="pt">Privacidade</span><span lang-block="en">Privacy</span></a>
+<a data-target="security" href="#security"><span lang-block="pt">Segurança</span><span lang-block="en">Security</span></a>
+<a data-target="disclaimer" href="#disclaimer"><span lang-block="pt">Aviso legal</span><span lang-block="en">Disclaimer</span></a>
+<a data-target="eula" href="#eula"><span lang-block="pt">Termos de uso</span><span lang-block="en">Terms of use</span></a>
+<a data-target="contact" href="#contact"><span lang-block="pt">Contato</span><span lang-block="en">Contact</span></a>
+</nav>
+</div>
+</header>
+<main class="wrap">
+<!-- ======================= PORTUGUÊS ======================= -->
+<div lang-block="pt">
+<section>
+<h2>Sobre o aplicativo</h2>
+<p><strong>Leia, anote, preencha, assine e escreva em PDFs.</strong> O PdfFlix3D Reader &amp; Writer é um aplicativo Android para trabalhar com PDFs no celular, inclusive com entrada de texto por voz. O reconhecimento de fala pode depender de serviços do aparelho.</p>
+<div class="box"><span class="pill free">READER · GRÁTIS</span> Abrir e ler PDFs, zoom, busca no texto, caneta, marca-texto, notas, desfazer/refazer e compartilhar.</div>
+<div class="box"><span class="pill pro">WRITER · PRO</span> Falar (ditar texto no PDF), Texto, Editar textos já existentes no PDF, Campos (preencher formulários com voz e com seus dados), Assinar (assinatura completa ou rubrica, que é uma versão reduzida da assinatura) e Modelos prontos. Os recursos do Writer podem ser experimentados em 25 usos gratuitos; depois, ficam disponíveis com a compra única do PRO.</div>
+</section>
+<section id="privacy">
+<h2>Política de Privacidade</h2>
+<p class="date">Última atualização: novembro de 2026 · versão 0.1.0</p>
+<p>O PdfFlix3D foi projetado para trabalhar com documentos no aparelho, sem exigir conta ou cadastro e sem servidores próprios para armazenar PDFs. Compras, reconhecimento de voz e download de modelos opcionais podem envolver serviços de terceiros, conforme explicado abaixo.</p>
+<h3>1. Dados que coletamos</h3>
+<p>A Shopflix3D não utiliza os PDFs ou textos de seus documentos para publicidade nem mantém servidores próprios para recebê-los. O aplicativo não exibe anúncios nem inclui ferramentas próprias de análise comportamental ou rastreamento. Serviços externos necessários a funções específicas podem tratar dados técnicos conforme suas políticas.</p>
+<p>O PdfFlix3D não envia seus PDFs, assinatura, dados de preenchimento ou textos para servidores da Shopflix3D. Algumas funções opcionais podem se comunicar com serviços de terceiros, como Google Play, reconhecimento de voz e download de modelos de IA, conforme descrito nesta política.</p>
+<h3>2. Dados que ficam somente no seu aparelho</h3>
+<ul>
+<li><strong>Documentos PDF</strong> que você abre: o app guarda uma cópia na área interna do próprio aplicativo. O arquivo original não é alterado.</li>
+<li><strong>Anotações, textos, edições, notas e preenchimentos</strong> feitos nos documentos.</li>
+<li><strong>Meus dados</strong> (nome, CPF/documento, endereço, cidade, telefone e e-mail), se você optar por cadastrá-los, usados apenas para preencher formulários com um toque.</li>
+<li><strong>Assinatura</strong> desenhada por você, usada apenas para assinar documentos.</li>
+<li><strong>Preferências</strong> (idioma) e o contador de usos gratuitos.</li>
+</ul>
+<p>Os dados guardados no armazenamento privado do aplicativo não são enviados para servidores próprios da Shopflix3D. O comportamento de backup ou transferência entre aparelhos depende das configurações efetivamente aplicadas ao app e do Android. <strong>Não presuma que uma cópia de backup tenha sido excluída</strong> apenas porque você apagou um arquivo do aplicativo.</p>
+<h3>2.1 Quem trata cada dado</h3>
+<ul>
+<li><strong>Shopflix3D:</strong> não recebe seus documentos nem seus dados pelo aplicativo; não há servidor da Shopflix3D envolvido. Se você nos enviar um e-mail ou relato, receberemos apenas o que você incluir.</li>
+<li><strong>Modelos de IA:</strong> a consulta à lista de modelos no GitHub e o download opcional do Gemma podem estabelecer conexões com os fornecedores envolvidos. Essas requisições não precisam incluir o conteúdo dos seus PDFs, mas podem revelar dados técnicos de conexão, como o endereço IP. O Android AICore pode gerenciar o download ou a atualização do Gemini Nano.</li>
+<li><strong>Google Play:</strong> trata a compra, o pagamento e a confirmação da licença PRO, conforme a política do Google.</li>
+<li><strong>Serviço de voz do Android:</strong> recebe a fala apenas durante o ditado (veja o item 3).</li>
+<li><strong>App de destino:</strong> ao compartilhar um PDF, ele passa a ser tratado pelo app que você escolher (WhatsApp, e-mail etc.), conforme a política desse app.</li>
+</ul>
+<h3>3. Microfone e reconhecimento de voz</h3>
+<p>O microfone é usado <strong>somente</strong> quando você toca no botão de microfone, para transformar a sua fala em texto. O app <strong>não grava nem armazena áudio</strong>. O reconhecimento é feito pelo serviço de reconhecimento de fala do próprio Android. Dependendo do aparelho e das configurações, esse serviço pode processar a fala no celular ou nos servidores do fornecedor do serviço, como o Google, de acordo com a política de privacidade desse fornecedor.</p>
+<h3>3.1 Inteligência artificial (Writer)</h3>
+<p>O recurso ✨ foi projetado para sugerir correções e melhorias de texto <strong>no dispositivo</strong>, usando Gemini Nano via Android AICore em aparelhos compatíveis ou um modelo Gemma opcional. A instalação e atualização desses modelos podem exigir internet. O aplicativo não utiliza servidores próprios para processar seus textos. <strong>A IA pode cometer erros:</strong> confira o resultado antes de aplicá-lo. Relatos podem ficar no aparelho; se você optar por enviar um relato por e-mail, revise previamente o conteúdo incluído, pois ele pode conter dados pessoais.</p>
+<h3>4. Arquivos e compartilhamento</h3>
+<p>O app só acessa os arquivos que você escolher. Quando você usa “Salvar como” ou “Exportar”, o PDF é gravado no local escolhido por você ou enviado ao aplicativo que você selecionar (por exemplo, WhatsApp ou e-mail).</p>
+<h3>5. Compras</h3>
+<p>A compra do PRO é processada pelo Google Play. A Shopflix3D não recebe nem armazena dados de pagamento. O app consulta o Google Play apenas para confirmar se a compra foi feita nesta conta.</p>
+<h3>6. Permissões</h3>
+<p>O app também pode receber PDFs que você abrir pelo “Abrir com…” ou “Compartilhar” de outros aplicativos; nesse caso, apenas o arquivo escolhido é copiado para o app.</p>
+<ul>
+<li><strong>Microfone</strong> (RECORD_AUDIO): ditado por voz, somente quando você ativa.</li>
+<li><strong>Internet</strong>: usada pelo Google Play para compras/restauração, pelo reconhecimento de voz quando o serviço do Android exigir conexão e para baixar ou verificar modelos de IA opcionais.</li>
+</ul>
+<h3>7. Crianças</h3>
+<p>O aplicativo não é direcionado a menores de 13 anos e não coleta dados de crianças.</p>
+<h3>8. Seus direitos (LGPD)</h3>
+<p>Para os dados armazenados localmente, o aplicativo disponibiliza opções de gerenciamento e exclusão. Os arquivos exportados, compartilhados ou copiados para outros locais devem ser tratados separadamente:</p>
+<ul>
+<li><strong>Remover um documento</strong> da biblioteca apaga a cópia do PDF e as anotações dele.</li>
+<li><strong>Configurações › Apagar meus dados e assinatura</strong> apaga “Meus dados” e a assinatura salva.</li>
+<li><strong>Configurações › Apagar tudo do app</strong> apaga todos os PDFs, anotações, dados, assinatura e preferências.</li>
+</ul>
+<p>Desinstalar o aplicativo normalmente remove seus dados do armazenamento privado do app, mas não apaga automaticamente arquivos exportados, compartilhados ou possíveis cópias de backup. A compra PRO continua vinculada à conta do Google Play usada na compra. Para dúvidas de privacidade, entre em contato pelo endereço informado nesta página.</p>
+<h3>9. Alterações</h3>
+<p>Esta política pode ser atualizada. A versão vigente estará sempre neste endereço.</p>
+</section>
+<section id="security">
+<h2>Segurança e boas práticas</h2>
+<ul>
+<li>Ative o bloqueio de tela do celular (PIN, senha ou biometria). Os PDFs, seus dados e sua assinatura ficam na área privada do app, isolada pelo Android dos outros aplicativos.</li>
+<li>Evite ditar por voz senhas, dados bancários ou outras informações sigilosas; prefira digitar.</li>
+<li>Revise sempre o PDF final e confira o destinatário antes de compartilhar.</li>
+<li><strong>Edição não é ocultação segura:</strong> a edição de texto e a Edição visual não são ferramentas certificadas para ocultação definitiva de dados. Antes de divulgar um PDF com informações sensíveis, verifique se o conteúdo foi efetivamente removido, inclusive de versões anteriores, metadados e anexos. Não utilize sobreposição visual para ocultar dados pessoais.</li>
+<li>Remova da biblioteca os PDFs sensíveis quando não precisar mais deles, ou use Configurações › Apagar tudo do app.</li>
+</ul>
+<p>Observação: no PdfFlix3D a voz vira <strong>texto</strong>; o app não grava áudio. Notas de voz em áudio são recurso de outro aplicativo da Shopflix3D, o VoiceFlix3D.</p>
+</section>
+<section id="disclaimer">
+<h2>Aviso Legal</h2>
+<ul>
+<li>O aplicativo é fornecido com as funcionalidades e limitações descritas nesta página, sem prejuízo dos direitos obrigatórios do consumidor. Confira o PDF gerado antes de enviá-lo ou utilizá-lo. A opção “Rubricar todas” aplica uma versão reduzida da assinatura salva, e não iniciais independentes.</li>
+<li>A <strong>assinatura desenhada</strong> no app é uma imagem da sua assinatura. Ela <strong>não é</strong> uma assinatura digital com certificado (ICP-Brasil) e pode não ser aceita onde esse tipo de assinatura é exigido. A validade ou aceitação de uma assinatura depende das exigências do documento, de quem o recebe e da legislação aplicável.</li>
+<li>A <strong>edição de parágrafos</strong> procura substituir texto em PDFs com conteúdo textual selecionável. Dependendo da estrutura do arquivo, a substituição pode exigir reconstrução de objetos ou recorrer à edição visual. A fonte, o espaçamento e o resultado exportado podem diferir do original; confira sempre o PDF final. <strong>Esse recurso não deve ser usado para apagar dados sigilosos.</strong></li>
+<li><strong>PDF escaneado ou foto de documento:</strong> o texto faz parte da imagem e esta função não o remove. Nesses casos o app faz <strong>Edição visual</strong> (cobre o trecho e escreve por cima); o conteúdo original permanece na imagem e pode ser recuperado. Não use a Edição visual para ocultar dados sensíveis.</li>
+<li>Alterar um PDF com assinatura digital preexistente pode invalidar a assinatura ou afetar sua verificação. Confira o status das assinaturas após qualquer edição.</li>
+<li>Os <strong>modelos prontos</strong> são genéricos. Verifique se atendem ao seu caso e às exigências de quem vai recebê-los. Os modelos são ferramentas gerais de edição e não constituem orientação jurídica nem garantem validade ou aceitação do documento.</li>
+<li>O reconhecimento de voz pode cometer erros. Revise sempre o texto ditado.</li>
+<li>Alguns PDFs (protegidos, danificados ou muito grandes) podem não abrir ou não exportar corretamente.</li>
+<li>Você é o único responsável pelo conteúdo que escreve, edita e assina. A Shopflix3D não tem acesso aos seus documentos, salvo o que você decidir enviar.</li>
+</ul>
+</section>
+<section id="eula">
+<h2>Termos de Uso (EULA)</h2>
+<ol>
+<li><strong>Licença.</strong> A Shopflix3D concede a você uma licença pessoal, limitada, não exclusiva e intransferível para usar o aplicativo em dispositivos compatíveis.</li>
+<li><strong>Recursos gratuitos e PRO.</strong> O Reader é gratuito. Os recursos do Writer podem ser experimentados em 25 usos gratuitos e, depois, exigem a compra única do PRO pelo Google Play. Não há assinatura nem mensalidade. A compra PRO fica vinculada à sua conta do Google Play e pode ser restaurada em dispositivos Android compatíveis com a mesma conta, conforme disponibilidade do Google Play.</li>
+<li><strong>Compras e reembolsos.</strong> Compras, restaurações e reembolsos seguem as regras do Google Play e os direitos obrigatórios previstos pela legislação aplicável.</li>
+<li><strong>Uso permitido.</strong> É proibido usar o app para falsificar documentos, assinaturas ou para qualquer finalidade ilegal.</li>
+<li><strong>Propriedade.</strong> O aplicativo e os sinais distintivos PdfFlix3D e Shopflix3D são utilizados pela Shopflix3D Solutions Ltda. Os direitos sobre software, conteúdos e marcas são protegidos conforme a legislação aplicável, respeitadas as licenças dos componentes de terceiros. Esta cláusula não declara que cada nome possua registro individual no INPI.</li>
+<li><strong>Limitação de responsabilidade.</strong> Na máxima extensão permitida pela legislação aplicável, a Shopflix3D não se responsabiliza por danos indiretos, documentos recusados por terceiros ou consequências decorrentes de alterações realizadas conforme as instruções do usuário. Nada nestes Termos exclui direitos do consumidor, garantias ou responsabilidades que legalmente não possam ser excluídos ou limitados.</li>
+<li><strong>Lei aplicável.</strong> Estes Termos são regidos pelas leis do Brasil, na medida permitida pela legislação aplicável. Essa escolha não limita direitos obrigatórios do consumidor nem outras proteções legais aplicáveis no país ou região do usuário. Se alguma disposição for considerada inválida ou inexequível, as demais permanecem em vigor.</li>
+</ol>
+</section>
+<section id="contact">
+<h2>Contato</h2>
+<p>Shopflix3D Solutions Ltda · CNPJ 40.632.156/0001-00 · Passo Fundo, RS, Brasil<br/>
+  E-mail: <a href="mailto:support@shopflix3d.com">support@shopflix3d.com</a></p>
+</section>
+</div>
+<!-- ======================= ENGLISH ======================= -->
+<div lang-block="en">
+<section>
+<h2>About the app</h2>
+<p><strong>Read, annotate, fill in, sign and write on PDFs.</strong> PdfFlix3D Reader &amp; Writer is an Android app for working with PDFs on your phone, including voice-to-text input. Speech recognition may rely on your device’s services.</p>
+<div class="box"><span class="pill free">READER · FREE</span> Open and read PDFs, zoom, text search, pen, highlighter, notes, undo/redo and sharing.</div>
+<div class="box"><span class="pill pro">WRITER · PRO</span> Speak (dictate text onto the PDF), Text, Edit existing PDF text, Fields (fill in forms by voice and with your details), Sign (full signature or a scaled-down mini signature), and Templates. Writer features can be tried with 25 free uses; after that, they are available with the one-time PRO purchase.</div>
+</section>
+<section id="privacy-en">
+<h2>Privacy Policy</h2>
+<p class="date">Last updated: November 2026 · version 0.1.0</p>
+<p>PdfFlix3D is designed to handle documents on your device, without requiring an account or registration and without proprietary servers for storing PDFs. Purchases, speech recognition and optional model downloads may involve third-party services, as explained below.</p>
+<h3>1. Data we collect</h3>
+<p>Shopflix3D does not use your PDF documents or their text for advertising and does not operate its own servers to receive them. The app displays no ads and includes no first-party behavioral analytics or tracking tools. External services required for specific features may process technical data under their own policies.</p>
+<p>PdfFlix3D does not send your PDFs, signature, fill-in details or document text to Shopflix3D servers. Some optional features may communicate with third-party services, such as Google Play, speech recognition and AI model downloads, as described in this policy.</p>
+<h3>2. Data that stays only on your device</h3>
+<ul>
+<li><strong>PDF documents</strong> you open: the app keeps a copy in its own private storage. The original file is not changed.</li>
+<li><strong>Annotations, texts, edits, notes and form entries</strong> you make.</li>
+<li><strong>My details</strong> (name, ID, address, city, phone and e-mail), if you choose to enter them, used only to fill in forms with one tap.</li>
+<li><strong>Your signature</strong>, drawn by you, used only to sign documents.</li>
+<li><strong>Preferences</strong> (language) and the free-use counter.</li>
+</ul>
+<p>Data in the app's private storage is not sent to Shopflix3D's own servers. Backup or device-to-device transfer behavior depends on the settings actually applied to the app and on Android. <strong>Do not assume a backup copy has been deleted</strong> just because you removed a file from the app.</p>
+<h3>2.1 Who handles each kind of data</h3>
+<ul>
+<li><strong>Shopflix3D:</strong> does not receive your documents or data through the app; no Shopflix3D server is involved. If you email us or send a report, we receive only what you include.</li>
+<li><strong>AI models:</strong> checking the model list on GitHub and optionally downloading Gemma may connect to the relevant providers. These requests do not need to include the contents of your PDFs, but may disclose technical connection data, such as your IP address. Android AICore may manage Gemini Nano downloads or updates.</li>
+<li><strong>Google Play:</strong> handles the purchase, payment and PRO license check, under Google's policy.</li>
+<li><strong>Android speech service:</strong> receives your speech only while dictating (see item 3).</li>
+<li><strong>Target app:</strong> when you share a PDF, it is handled by the app you choose (WhatsApp, e-mail, etc.), under that app's policy.</li>
+</ul>
+<h3>3. Microphone and speech recognition</h3>
+<p>The microphone is used <strong>only</strong> when you tap the microphone button, to turn your speech into text. The app <strong>does not record or store audio</strong>. Recognition is performed by Android's own speech recognition service. Depending on the device and settings, that service may process speech on the phone or on the service provider's servers, such as Google, under that provider's privacy policy.</p>
+<h3>3.1 Artificial intelligence (Writer)</h3>
+<p>The ✨ feature is designed to suggest text corrections and improvements <strong>on your device</strong>, using Gemini Nano via Android AICore on compatible devices or an optional Gemma model. Installing or updating these models may require an internet connection. The app does not use its own servers to process your text. <strong>AI can make mistakes:</strong> review the result before applying it. Reports may be stored on the device; if you choose to email a report, review its contents first, as they may contain personal information.</p>
+<h3>4. Files and sharing</h3>
+<p>The app only accesses files you choose. When you use “Save as” or “Export”, the PDF is written to the location you choose or sent to the app you select (for example, WhatsApp or e-mail).</p>
+<h3>5. Purchases</h3>
+<p>The PRO purchase is processed by Google Play. Shopflix3D does not receive or store payment data. The app only checks with Google Play whether the purchase was made on this account.</p>
+<h3>6. Permissions</h3>
+<p>The app can also receive PDFs you open via other apps' “Open with…” or “Share”; in that case, only the chosen file is copied into the app.</p>
+<ul>
+<li><strong>Microphone</strong> (RECORD_AUDIO): voice dictation, only when you activate it.</li>
+<li><strong>Internet</strong>: used by Google Play for purchases and restoration, by speech recognition when the Android service requires a network connection, and to download or check optional AI models.</li>
+</ul>
+<h3>7. Children</h3>
+<p>The app is not directed at children under 13 and does not collect children's data.</p>
+<h3>8. Your rights</h3>
+<p>For information stored locally, the app provides management and deletion options. Files exported, shared or copied elsewhere must be handled separately:</p>
+<ul>
+<li><strong>Removing a document</strong> from the library deletes its PDF copy and annotations.</li>
+<li><strong>Settings › Delete my details and signature</strong> deletes “My details” and the saved signature.</li>
+<li><strong>Settings › Delete everything in the app</strong> deletes all PDFs, annotations, details, signature and preferences.</li>
+</ul>
+<p>Uninstalling the app normally removes its private local data, but does not automatically delete exported or shared files or possible backup copies. Your PRO purchase remains linked to the Google Play account used for the purchase. For privacy questions, use the contact address provided on this page.</p>
+<h3>9. Changes</h3>
+<p>This policy may be updated. The current version will always be available at this address.</p>
+</section>
+<section id="security-en">
+<h2>Security and good practices</h2>
+<ul>
+<li>Turn on your phone's screen lock (PIN, password or biometrics). PDFs, your details and your signature stay in the app's private storage, which Android isolates from other apps.</li>
+<li>Avoid dictating passwords, banking data or other confidential information; type it instead.</li>
+<li>Always review the final PDF and check the recipient before sharing.</li>
+<li><strong>Editing is not secure redaction:</strong> text editing and Visual editing are not certified methods for permanently redacting sensitive information. Before sharing a PDF, verify that the content has actually been removed, including from previous revisions, metadata and attachments. Do not use visual overlays to conceal personal information.</li>
+<li>Remove sensitive PDFs from the library when you no longer need them, or use Settings › Delete everything in the app.</li>
+</ul>
+<p>Note: in PdfFlix3D, voice becomes <strong>text</strong>; the app does not record audio. Audio voice notes are a feature of another Shopflix3D app, VoiceFlix3D.</p>
+</section>
+<section id="disclaimer-en">
+<h2>Disclaimer</h2>
+<ul>
+<li>The app is provided with the features and limitations described on this page, without prejudice to mandatory consumer rights. Check the resulting PDF before sending or using it. The “Mini signature on all pages” option applies a scaled-down version of your saved signature, not a separate set of initials.</li>
+<li>The <strong>signature drawn</strong> in the app is an image of your signature. It is <strong>not</strong> a certificate-based digital signature and may not be accepted where that type is required. Whether a signature is valid or accepted depends on the document's requirements, the receiving party and applicable law.</li>
+<li><strong>Paragraph editing</strong> attempts to replace text in PDFs with selectable text content. Depending on the file structure, replacement may require rebuilding page objects or fall back to visual editing. Font, spacing and exported output may differ from the original; always check the final PDF. <strong>This feature must not be used to erase confidential information.</strong></li>
+<li><strong>Scanned PDFs or photos of documents:</strong> the text is part of the image and this feature does not remove it. In these cases the app performs a <strong>Visual edit</strong> (covers the area and writes on top); the original content remains in the image and can be recovered. Do not use Visual edit to hide sensitive data.</li>
+<li>Modifying a PDF with an existing digital signature may invalidate the signature or affect signature verification. Check signature status after any edit.</li>
+<li><strong>Templates</strong> are generic. Check that they fit your case and the requirements of whoever receives them. Templates are general editing tools; they are not legal advice and do not guarantee the document's validity or acceptance.</li>
+<li>Speech recognition may make mistakes. Always review dictated text.</li>
+<li>Some PDFs (protected, damaged or very large) may not open or export correctly.</li>
+<li>You are solely responsible for the content you write, edit and sign. Shopflix3D has no access to your documents, except what you choose to send.</li>
+</ul>
+</section>
+<section id="eula-en">
+<h2>Terms of Use (EULA)</h2>
+<ol>
+<li><strong>License.</strong> Shopflix3D grants you a personal, limited, non-exclusive, non-transferable license to use the app on compatible devices.</li>
+<li><strong>Free and PRO features.</strong> Reader is free. Writer features can be tried with 25 free uses and then require the one-time PRO purchase on Google Play. There is no subscription. The PRO purchase is linked to your Google Play account and can be restored on compatible Android devices using the same account, subject to Google Play availability.</li>
+<li><strong>Purchases and refunds.</strong> Purchases, restorations and refunds follow Google Play's rules and the mandatory rights provided by applicable law.</li>
+<li><strong>Permitted use.</strong> You may not use the app to forge documents or signatures or for any unlawful purpose.</li>
+<li><strong>Ownership.</strong> The app and the PdfFlix3D and Shopflix3D distinguishing signs are used by Shopflix3D Solutions Ltda. Software, content and trademark rights are protected under applicable law, subject to third-party component licenses. This clause does not claim that each product name is individually registered with the Brazilian trademark office (INPI).</li>
+<li><strong>Limitation of liability.</strong> To the maximum extent permitted by applicable law, Shopflix3D is not liable for indirect damages, documents rejected by third parties or consequences of changes made according to the user's instructions. Nothing in these Terms excludes consumer rights, warranties or liabilities that cannot legally be excluded or limited.</li>
+<li><strong>Governing law.</strong> These Terms are governed by the laws of Brazil to the extent permitted by applicable law. This choice of law does not limit mandatory consumer rights or other legal protections applicable in the user's country or region. If any provision is found invalid or unenforceable, the remaining provisions remain in effect.</li>
+</ol>
+</section>
+<section id="contact-en">
+<h2>Contact</h2>
+<p>Shopflix3D Solutions Ltda · CNPJ 40.632.156/0001-00 · Passo Fundo, RS, Brazil<br/>
+  E-mail: <a href="mailto:support@shopflix3d.com">support@shopflix3d.com</a></p>
+</section>
+</div>
+</main>
+<footer>© 2026 Shopflix3D Solutions Ltda · CNPJ 40.632.156/0001-00 · PdfFlix3D Reader &amp; Writer</footer>
+<script>'use strict';
+  function setLang(lang) {
+    var l = lang === 'en' ? 'en' : 'pt';
+    document.body.classList.remove('pt', 'en');
+    document.body.classList.add(l);
+    document.documentElement.lang = l === 'pt' ? 'pt-BR' : 'en';
+    ['pt', 'en'].forEach(function(code) {
+      var b = document.getElementById('b-' + code);
+      var selected = code === l;
+      b.classList.toggle('on', selected);
+      b.setAttribute('aria-pressed', String(selected));
+    });
+    document.querySelectorAll('nav a[data-target], a.skip-link[data-target]').forEach(function(a) {
+      var base = a.getAttribute('data-target');
+      a.setAttribute('href', '#' + base + (l === 'en' ? '-en' : ''));
+    });
+    try { localStorage.setItem('pdfflix3d-legal-language', l); } catch (e) {}
+  }
+  var savedLanguage = null;
+  try { savedLanguage = localStorage.getItem('pdfflix3d-legal-language'); } catch (e) {}
+  var browserLanguage = (navigator.language || 'pt').toLowerCase();
+  setLang(savedLanguage || (browserLanguage.indexOf('pt') === 0 ? 'pt' : 'en'));
+</script>
+</body>
+</html>
